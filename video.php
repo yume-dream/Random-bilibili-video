@@ -11,7 +11,7 @@ $data = explode(PHP_EOL, $data);
 $result = $data[array_rand($data)];
 //输出
 print <<<HTML
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yume-dream/Random-bilibili-video@1.0/video.css"> 
 <div class="modal-mask">
 		<div class="modal-wrapper modal-video"  >
 			<div class="modal-container">
