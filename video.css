@@ -1,0 +1,193 @@
+﻿.modal-mask, .modal-mask:after {
+    vertical-align: middle;
+}
+
+.modal-mask {
+display: none;    
+position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgba(0,0,0,.8);
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    -ms-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+
+
+.modal-video {
+    max-width: 50%;
+    vertical-align: top;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    top: 43%;
+}
+
+.modal-video {
+    width: 100em;
+}
+
+.modal-wrapper {
+   top: 430px;
+display: none;
+    vertical-align: middle;
+    white-space: normal;
+    max-width: 95%;
+}
+
+.add {
+display: block!important;
+}
+
+.videoplayer-closs {
+display:none;
+}
+
+.videoplayer-closs {
+display:none!important;
+}
+
+.videoplayer{
+display:block;
+margin: auto!important;
+}
+
+.modal-container {   
+margin: auto;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+    position: relative;
+    min-width: 20em;
+    padding: 2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.modal-close-button {
+color: inherit;
+    font: inherit;
+    margin: 0;
+appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+border-image: initial;
+text-transform: none;
+overflow: visible;
+cursor: pointer;
+    -webkit-appearance: button;    
+position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    outline: 0;
+    background: 0 0;
+    border: none;
+    padding: 0;
+    background-image: url(https://www.bakary.cn/wp-content/themes/Sakura-3.3.8/下载.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+button, select {
+    text-transform: none;
+}
+
+.modal-content {
+    text-align: left;
+}
+
+.modal-video-wrapper {
+    width: 100%;
+    max-width: 100em;
+    position: relative;
+    height: 0;
+    padding-top: 56.25%;
+}
+
+.modal-video-element {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+}
