@@ -192,6 +192,6 @@ button {
     border-image: initial;
 }
 
-@media .videoaplayer {
+@media (max-width: 768px).videoaplayer {
 display: none;
 }
