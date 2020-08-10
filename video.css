@@ -191,3 +191,7 @@ button {
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
     border-image: initial;
 }
+
+@media .videoaplayer {
+display: none;
+}
